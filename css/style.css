@@ -1,0 +1,162 @@
+/* index.html */
+body {
+	background-color: grey;
+	font-family: Montserrat;
+	color: white;
+	background: url(../image/siang.png) no-repeat right;
+}
+
+.container {
+	background: rgba(6, 77, 104, 0.7);
+	border-radius: 20px;
+	padding: 30px 40px;
+}
+
+.header-nav {
+	text-align: right;
+	float: right;
+}
+
+.header-nav img {
+	width: 20px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.header {
+	border-bottom: 2px solid white;
+}
+
+.header img {
+	width: 50px;
+	position: relative;
+	left: 70px;
+}
+
+.header-title {
+	font-weight: 800;
+	color: white;
+}
+
+.section-charater {
+	float: left;
+	height: 500px;
+}
+
+.arrow {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.arrow img {
+	width: 80%;
+}
+
+.character {
+	min-width: 25%;
+	max-height: 260px;
+}
+
+.form-player {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-player input {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-button {
+	padding: 10px 5%;
+	font-weight: 800;
+}
+
+.form-button:hover {
+	box-shadow: -7px 10px rgb(6, 77, 104);
+}
+
+/* game.html */
+.game-status {
+  background: rgba(6, 77, 104, 0.9);
+	border-radius: 20px;
+	padding: 10px 50px;
+	width: 70%;
+	text-align: center;
+}
+
+.game-status img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.game-status progress {
+  vertical-align: middle;
+  height: 50px;
+  width: 70%;
+}
+
+#time h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.game-character {
+  width: 15%;
+}
+
+.player-activities {
+  width: 40%;
+  vertical-align: middle;
+}
+
+.player-activities .btn {
+  width: 100%;
+}
+
+.player-activities img {
+	vertical-align: middle;
+	margin-left: 10px;
+	width: 20px;
+}
+
+.modal-title {
+	color: rgb(6, 77, 104);
+	font-weight: 800;
+}
+
+.close {
+	font-size: 20px;
+	padding: 0 10px;
+	border: 1px solid transparent;
+}
+
+.modal-content {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.header-nav button {
+	background-color: transparent;
+	border: transparent;
+}
+
+.sound {
+	position: fixed; 
+	bottom: 20px; 
+	right: 20px;
+}
+
+.btn-sound img {
+	width: 80%;
+	background: rgb(6, 77, 104);
+	border-radius: 50%;
+	padding: 10px;
+	border: transparent;
+}
+
+.btn-sound {
+	background: transparent;
+	border: transparent;
+}
+
